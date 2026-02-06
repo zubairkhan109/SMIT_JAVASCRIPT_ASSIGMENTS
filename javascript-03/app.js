@@ -22,10 +22,11 @@ alert(
   "\nYour Age: " + age + " years"
 );
 
-var ok = confirm("Do You Want To Play Again?");
+var ok = confirm("Do You Want To Check Again?");
 if (ok) {
   window.location.reload();
 }
+
 
 
 
