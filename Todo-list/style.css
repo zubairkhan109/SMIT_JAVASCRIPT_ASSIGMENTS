@@ -1,0 +1,150 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.mian-container{
+    margin-top: 70px;
+    justify-items: center;
+    text-align: center;
+}
+
+.mian-container input{
+    padding:10px 35px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: bisque;
+    border: none;
+}
+
+.todo-container button{
+    padding:10px 0px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px 15px;
+    background:#007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.todo-container button:hover{
+  transform: scale(1.1);
+  background: #0056b3;
+}
+
+.todo-container button:active {
+  transform: scale(0.92);
+}
+
+.todo-list{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.todo-list button{
+    border-radius: 10px;
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.todo-list button:hover{    
+  transform: scale(1.1);
+  background: #0056b3;
+}
+
+.todo-list button:active {
+  transform: scale(0.95);
+}
+
+.todo-list p{
+    background-color: aquamarine;
+    width:215px;
+    height: 35px;
+    border-radius: 10px;
+    align-content: center;
+}
+
+.heading{
+    font-size: 50px;
+    background-color: aqua;
+    border-radius: 10px;
+    width:340px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+#todo-btn {
+  padding: 8px 15px;
+  background: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#todo-btn:hover {
+  transform: scale(1.1);
+  background: #218838;
+}
+
+#todo-btn:active {
+  transform: scale(0.95);
+}
+
+
+.edit-btn {
+  background: #ffc107;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.edit-btn:hover {
+  transform: translateY(-3px);
+}
+
+
+.delete-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.delete-btn:hover {
+  transform: translateX(5px);
+}
+
+
+.todo-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-top: 10px;
+  background: #f1f1f1;
+  transition: all 0.3s ease;
+}
+
+.todo-list:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
