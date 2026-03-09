@@ -5,6 +5,7 @@
 //     console.log(`${table} X ${i} = ${table * i}`);
 // }
 
+
 // Nested loop
 
 var Fullname =["Ahsen","Shayan","Obaid"]
@@ -58,6 +59,7 @@ for(var i = 0; i <= Fullname.length; i++){
 // Repeat
 
 // Jab tak outer loop false na ho
+
 
 
 
