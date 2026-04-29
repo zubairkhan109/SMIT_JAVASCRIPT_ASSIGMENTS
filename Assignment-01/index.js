@@ -6,6 +6,7 @@
 // }
 
 
+
 // Nested loop
 
 var Fullname =["Ahsen","Shayan","Obaid"]
